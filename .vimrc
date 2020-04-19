@@ -45,6 +45,7 @@ autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<CR>" 
 "let g:ycm_key_list_select_completion=['<c-n>', '<Down>']
 "let g:ycm_key_list_previous_completion=['<c-p>', '<Up>']
+let g:ycm_key_list_stop_completion =['<C-y>', '<CR>']
 "let g:ycm_confirm_extra_conf = 0 
 let g:ycm_collect_identifiers_from_tags_files = 1 
 let g:ycm_min_num_of_chars_for_completion=1 
