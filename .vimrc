@@ -24,7 +24,7 @@ set cursorline
 set showmode
 set showcmd
 filetype indent on
-set completeopt=longest,menu 
+set completeopt=longest,menu
 set omnifunc=syntaxcomplete#Complete
 set ruler
 set showmatch
@@ -33,7 +33,20 @@ set incsearch
 set ignorecase
 set smartcase
 set mouse=a
+set encoding=utf-8
+set autoindent
+set linebreak
+set autochdir
+set visualbell
+set autoread
+set wildmenu
 filetype plugin indent on
+
+let g:javascript_plugin_jsdoc = 1
+let g:javascript_plugin_ngdoc = 1
+let g:javascript_plugin_flow = 1
+
+let g:vim_jsx_pretty_colorful_config = 1
 
 colorscheme molokai
 let g:molokai_original = 1
